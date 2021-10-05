@@ -1,9 +1,9 @@
 % Octave Script		
-% Title 		      :Clasificación de los números 
-% Description		  :Sript para recordar conseptos de números 
+% Title 		      :ClasificaciÃ³n de los nÃºmeros 
+% Description		  :Sript para recordar conseptos de nÃºmeros 
 % Author		      :Alejandro Garcia Cruz
 % Date 			      :20210929
-% Vercion 		    :1
+% Version		    :1
 % Usage 		      :octave>cd /path/
 
 
@@ -13,10 +13,10 @@ clear
 c_numeros_Naturales = 'N= {1, 2, 3, .... n} si n > 0';
 c_numeros_Enteros = 'Z= {-n..., -2, -1, 0, 1, 2,..n}';
 c_numeros_Racionales = 'Q= {n/m donde m,n ER n  =/ 0}'; 
-c_numeros_Iracionales = 'I = {?n que no puede ser representada como ? todas las ra��ces que no son exactas}';
+c_numeros_Iracionales = 'I = {?n que no puede ser representada como ? todas las raí­ces que no son exactas}';
 c_numeros_Reales = '?= {I, Q, Z, N}';
 
-% Propiedades de los n�meros, sean a,b,c,d,e ??
+% Propiedades de los números, sean a,b,c,d,e ??
 
 % Propiedades de ?(cerradura)
 p_cerradura = 'a + b ER';
@@ -97,7 +97,7 @@ a>b
 b>c 
 a>c
 
-% Tricotomia (raͭz del algebra) siempre se puede comparar 
+% Tricotomia (raÍ­z del algebra) siempre se puede comparar 
 p_tricotomia = 'a>b';
 p_tricotomia2 = 'a=b';
 p_tricotomia3 = 'a<b';
@@ -107,5 +107,5 @@ b=6;
 a>b
 a<b
 
-% signos de agrupaci�n
+% signos de agrupaciÓn
 s_agrupacion = '{[()]}';  
